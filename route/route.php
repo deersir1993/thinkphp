@@ -15,6 +15,11 @@ Route::get('think', function () {
 
 Route::get('hello/:name', 'index/hello');
 
+Route::get('banner/index', 'banner/index');
+
+Route::get('abc', 'index/abc');
+
+
 return [
 
 ];
